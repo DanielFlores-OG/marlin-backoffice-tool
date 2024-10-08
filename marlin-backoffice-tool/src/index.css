@@ -1,0 +1,107 @@
+:root {
+  --blue-dark: #033655;
+  --blue-medium: #004080;
+  --blue-light: #336699;
+  --blue-lighter: #6699cc;
+  --blue-lightest: #b7cce2;
+  --gray-light: #f5f5f7;
+  --gray-dark: #818181;
+
+  --bg-light: #f0f0f0;
+  --bg-dark: #1a1a1a;
+
+  --text-light: #ffffff;
+  --text-dark: #000000;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--gray-light);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: white;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.ag-theme-alpine {
+  --ag-header-background-color: #b7cce2;
+  --ag-odd-row-background-color: rgb(22, 22, 27);
+  --ag-row-hover-color: rgb(32, 41, 50);
+  --ag-foreground-color: var(--text-dark);
+  --ag-border-color: var(--gray-dark);
+  min-height: 400px;
+  height: 20px;
+  width: 100%;
+}
+
+.ag-root-wrapper {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ag-header-cell-label {
+  font-weight: 600;
+}
+
+.ag-cell {
+  color: var(--text-dark);
+  background-color: var(--gray-light);
+}
+
+.ag-row-hover .ag-cell,
+.ag-row-hover.ag-row-odd .ag-cell {
+  background-color: var(--blue-light);
+  color: var(--text-light);
+}
+
+.ag-row-odd .ag-cell {
+  color: var(--text-dark);
+  background-color: white;
+}
+

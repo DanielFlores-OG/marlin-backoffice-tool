@@ -1,0 +1,10 @@
+.header {
+  background-color: var(--blue-light);
+  color: var(--text-light);
+  text-align: left;
+  padding: 20px;
+  border-bottom: 1px var(--blue-dark) solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
