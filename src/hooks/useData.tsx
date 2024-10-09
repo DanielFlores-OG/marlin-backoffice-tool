@@ -44,3 +44,7 @@ export const setHistoryError = (historyError: string) => {
 export const setHistoryLoading = (historyLoading: boolean) => {
   useData.setState({ historyLoading });
 };
+
+export const restoreData = () => {
+  useData.setState(initialState);
+};
